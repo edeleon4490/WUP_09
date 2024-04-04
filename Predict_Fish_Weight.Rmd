@@ -1,6 +1,6 @@
 ---
 title: "Weight of Fish"
-author: "Your Name"
+author: " Ever De Leon"
 date: "`r Sys.Date()`"  
 output: 
   html_document:
@@ -16,6 +16,10 @@ output:
 ```{r include=FALSE,echo=FALSE}
 require(tigerstats)
 require(tidyverse)
+```
+
+```{r}
+fishAll <- read.csv("Fish.csv")
 ```
 
 # Predicting Fish Weight
